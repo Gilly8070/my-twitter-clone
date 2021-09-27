@@ -1,0 +1,146 @@
+.timeContainer {
+    /* border: 1px solid black; */
+    /* background-color: green; */
+    display: none;
+
+}
+.searchInputContainer {
+    background-color: white;
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    width: 340px;
+    padding-bottom: 30px;
+/* background-color: black; */
+    /* right: 20px; */
+}
+.searchInput {
+    /* border: 1px solid black; */
+    background-color: #E6ED11;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 8px;
+    /* top: 2px; */
+    /* background-color: whitesmoke; */
+    /* padding-top: 6px; */
+}
+.searchIcon {
+    margin-left: 5px;
+    opacity: 0.5;
+margin-right: 8px;
+font-size: 1.2rem;
+}
+.inputSearch {
+    border: none;
+    background-color: #E6ED11;
+
+    /* font-size: 1rem; */
+    /* opacity: 0.5; */
+
+}
+.tweetTimeline {
+    border-radius: 20px;
+    background-color: #f5f8fa;
+padding-left: 20px;
+padding-right: 20px;
+
+    animation-name: showCase;
+    animation-duration: 1s;
+/* animation-iteration-count: 2; */
+  /* animation-direction: alternate; */
+
+/* position: relative; */
+/* top: 62px; */
+    /* position: fixed; */
+    /* left: 100px; */
+    /* top: 0px; */
+    /* right: 0px; */
+    /* position: fixed; */
+    /* height: 100vh; */
+    /* left: 100%; */
+    /* width: 100%; */
+    /* overflow-y: scroll; */
+/* opacity: 0.2; */
+/* visibility: 0.3; */
+    /* border: 1px solid black; */
+
+}
+.heading {
+font-weight: 800;
+font-size: 1.3rem;
+padding: 5px;
+padding-top: 16px;
+padding-bottom: 2px;
+}
+@media screen and (min-width: 992px) {
+    @keyframes showCase {
+        0% {
+            /* opacity: 0.88; */
+            transform: scale(0);
+
+        }
+        50% {
+            /* opacity: 0.92; */
+            transform: scale(0);
+
+        }
+        75% {
+            /* opacity: 0.97; */
+            transform: scale(0);
+
+        }
+        100% {
+            /* opacity: 1; */
+            transform: scale(1);
+
+        }
+    }
+.timeContainer {
+    display: block;
+
+
+    /* z-index: 22; */
+    /* position: -webkit-sticky; */
+    /* position: absolute; */
+    /* position: fixed; */
+    /* position: relative; */
+    /* margin-left: 100%; */
+
+    position: fixed;
+    /* left: 65%; */
+    top: 60px;
+    right: 20px;
+    bottom: 0px;
+    width: 340px;
+    height: 100%;
+    overflow-y: scroll;
+
+    /* background-color: black; */
+    /* height: 1000px; */
+    /* width: 100%; */
+    /* top: 0px; */
+/* bottom: 100px; */
+/* left: 70%; */
+    /* grid-template-columns: 25% 50% 25%; */
+}
+.timeContainer::-webkit-scrollbar {
+display: none;
+}
+
+.tweetEmbed {
+/* width: 200px; */
+}
+.tweetTimeline {
+/* padding: 0px 22px; */
+
+}
+}
+@media screen and (min-width: 1200px) {
+.timeContainer {
+
+}
+.tweetTimeline {
+/* padding: 0px 22px; */
+}
+}

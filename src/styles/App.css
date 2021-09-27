@@ -1,0 +1,47 @@
+.check {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    /* width: 100%; */
+}
+.check1 {
+    background-color: black;
+}
+
+.appContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* display: grid; */
+    /* grid-template-columns: 33% calc(100% - 33% - 20px); */
+    margin-right: 1%;
+    margin-left: 1%;
+
+    /* grid-column-gap: 20px; */
+    /* background-color: green; */
+    /* position: relative; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* height: 100vh; */
+    /* position: relative; */
+    /* padding-top: 16px; */
+    /* position: relative; */
+    /* z-index: 9; */
+    /* background-color: chartreuse; */
+    /* left: 20%; */
+    /* width: 100vw; */
+    /* border: 1px solid red; */
+    /* margin-bottom: 2px; */
+    /* width: 100vw; */
+    /* height: 100%; */
+        /* position: absolute; */
+        /* top: 20px; */
+        /* overflow-z: hidden; */
+}
+.checkingSidebar {
+    background-color: red;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 100;
+}

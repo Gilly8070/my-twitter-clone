@@ -1,0 +1,115 @@
+.sideContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    background-color: white;
+    overflow-y: scroll;
+    height: 100%;
+    width: 160px;
+
+    /* bottom: 0px; */
+    /* position: absolute; */
+    /* z-index: 0; */
+    /* top: 0px; */
+    /* bottom: 100px; */
+    /* margin-left: 13px; */
+    /* margin: 0; */
+    /* height: 100vh; */
+}
+.sideContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.currentIn {
+color: #50b7f5;
+}
+.iconSize {
+    /* border: 1px solid black; */
+font-size: 1.8rem;
+color: #50b7f5;
+margin-left: 10px;
+margin-bottom: 16px;
+margin-top: 17px;
+}
+.sideTitle > div {
+    /* border: 1px solid black; */
+display: flex;
+flex-direction: row;
+align-content: center;
+cursor: pointer;
+padding: 0px 10px;
+padding-top: 10px;
+margin: 7px 0px;
+
+/* margin-bottom: 10px; */
+/* justify-content: center; */
+/* padding-right: 3px; */
+/* padding-bottom: 5px; */
+/* padding: 10px 0px; */
+/* align-self: center; */
+/* text-align: center; */
+}
+.sideTitle > div:hover {
+background-color: #e8f5fe;
+border-radius: 50px;
+/* border-top-left-radius: 25%; */
+/* border-top-right-radius: 25%; */
+/* border-radius: ; */
+/* border-radius-left: 25%; */
+/* border-start-start-radius: 25%; */
+/* padding: 20px; */
+}
+.sideTitle > div:hover>span:only-of-type  {
+    color: #50b7f5;
+}
+.sideTitle > div:hover>p:only-of-type  {
+    color: #50b7f5;
+}
+.sideTitle > div > p  {
+    /* border: 1px solid black; */
+    margin-left: 12px;
+    font-size: 1rem;
+    font-weight: 900;
+margin-top: 5px;
+
+}
+.sideTitle > div > span {
+    font-size: 1.3rem;
+}
+.tweetBtn {
+    border: none;
+    padding: 10px;
+background-color: #50b7f5;
+color: white;
+border-radius: 50px;
+margin-top: 20px;
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+.sideContainer {
+width: 220px;
+}
+.sideTitle > div {
+padding-left: 18px;
+}
+.sideTitle > div > p  {
+    margin-left: 20px;
+font-size: 1.3rem;
+}
+.sideTitle > div > span {
+font-size: 1.5rem;
+margin-top: 1px;
+}
+.iconSize {
+margin-left: 18px;
+}
+.tweetBtn {
+font-size: 1.35rem;
+
+}
+}
